@@ -5,7 +5,9 @@ A script for easily connecting and disconnecting to Duke's VPN, from the termina
 This is way faster than using the Cisco client, since it stores your netid and password locally on your device, removing the need for you to type it manually. 
 As such, this could be a **major security vulnerability** if your computer's main disk isn't encrypted, or if someone gains access to your computer. 
 
-Use at your own risk. 
+Use at your own risk!
+
+This has been tested on macOS, but should work on Linux as well. I don't expect it to work on Windows, though. 
 
 # Installation Guide
 
