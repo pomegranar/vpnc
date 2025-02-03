@@ -15,3 +15,25 @@ This has been tested on macOS, but should work on Linux as well. I don't expect 
 2. Go to the file install.sh with `cd vpnc`.
 3. Run the install script with `sh install.sh`.
 4. Try it out by typing `vpnc` in your terminal.
+
+# Usage
+
+## To connect: 
+
+```bash
+vpnc
+```
+
+and then hit confirm on Duo. 
+
+## To disconnect: 
+
+```bash
+vpnd
+```
+
+## To check status/use interactive mode:
+
+```bash
+vpni
+```
