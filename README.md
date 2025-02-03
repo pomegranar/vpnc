@@ -12,8 +12,8 @@ This has been tested on macOS, but should work on Linux as well. I don't expect 
 # Installation Guide
 
 1. Clone the repository with `git clone https://github.com/pomegranar/vpnc.git` or `git clone git@github.com:pomegranar/vpnc.git` for SSH (or just download install.sh).
-2. Go to the file install.sh with `cd vpnc`.
-3. Run the install script with `sh install.sh`.
+2. Navigate to where you cloned it with `cd vpnc`.
+3. Run the install script with `zsh install.sh` for macOS, and `bash install.sh` for Linux.
 4. Try it out by typing `vpnc` in your terminal.
 
 # Usage
