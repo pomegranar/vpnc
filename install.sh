@@ -40,9 +40,9 @@ chmod 600 "$CONFIG_FILE"
 echo "Saved credentials to $CONFIG_FILE"
 
 # Add alias to shell configuration
-ALIAS_CMD_on="alias vpnc=\"/opt/cisco/anyconnect/bin/vpn -s < $CONFIG_FILE\""
-ALIAS_CMD_off="alias vpnd=\"/opt/cisco/anyconnect/bin/vpn disconnect\""
-ALIAS_CMD_interactive="alias vpni=\"/opt/cisco/anyconnect/bin/vpn\""
+ALIAS_CMD_on="alias vpnc=\"/opt/cisco/secureclient/bin/vpn -s < $CONFIG_FILE\""
+ALIAS_CMD_off="alias vpnd=\"/opt/cisco/secureclient/bin/vpn disconnect\""
+ALIAS_CMD_interactive="alias vpni=\"/opt/cisco/secureclient/bin/vpn\""
 echo "$ALIAS_CMD_on" >> "$SHELL_RC"
 echo "Added alias 'vpnc' to $SHELL_RC"
 echo "$ALIAS_CMD_off" >> "$SHELL_RC"
